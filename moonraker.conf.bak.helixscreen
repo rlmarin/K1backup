@@ -101,14 +101,3 @@ path: /usr/data/mainsail
 #requirements: scripts/mobileraker-requirements.txt
 #install_script: scripts/install.sh
 #managed_services: mobileraker
-
-# HelixScreen Update Manager
-# Added by HelixScreen installer - enables one-click updates from Mainsail/Fluidd
-# NOTE: type: web is used instead of type: zip as a workaround for
-# mainsail-crew/mainsail#2444 (zip type always shows UP-TO-DATE).
-# A systemd path unit handles service restart after Moonraker extracts the update.
-[update_manager helixscreen]
-type: web
-channel: stable
-repo: prestonbrown/helixscreen
-path: /usr/data/helixscreen
