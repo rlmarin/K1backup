@@ -60,3 +60,9 @@ channel = beta
 repo = mainsail-crew/mainsail
 path = /usr/data/mainsail
 
+[update_manager helixscreen]
+type = web
+channel = stable
+repo = prestonbrown/helixscreen
+path = /usr/data/helixscreen
+
